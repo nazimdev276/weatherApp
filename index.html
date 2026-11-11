@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Title</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="icon.png" />
   </head>
   <body>
-    <h1>Content</h1>
+    <form class="weatherForm">
+      <input type="text" class="cityInput" placeholder="Input City" />
+      <button type="submit">Get weather</button>
+    </form>
+    <div class="card" style="display: none"></div>
+    <script src="config.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
